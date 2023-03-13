@@ -12,5 +12,6 @@ func _process(delta):
 	pass
 
 
-func _on_nut_bat_dau_pressed():
-	get_tree().change_scene_to_file("res://scenes/dogBase/dogBase.tscn")
+
+func _on_nut_vien_chinh_pressed():
+	get_tree().change_scene_to_file("res://scenes/map/map.tscn")
