@@ -86,3 +86,5 @@ custom_minimum_size = Vector2(150, 50)
 layout_mode = 2
 size_flags_horizontal = 4
 text = "Thoát"
+
+[connection signal="pressed" from="Khung/PhanCuoi/NutBatDau" to="." method="_on_nut_bat_dau_pressed"]
