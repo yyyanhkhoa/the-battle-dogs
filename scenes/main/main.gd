@@ -13,4 +13,4 @@ func _process(delta):
 
 
 func _on_nut_bat_dau_pressed():
-	get_tree().change_scene_to_file("res://scenes/dog base/main.tscn")
+	get_tree().change_scene_to_file("res://scenes/dogBase/dogBase.tscn")
